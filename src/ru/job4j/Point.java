@@ -15,9 +15,9 @@ public class Point {
         int x1= 9;
         int y1= 7;
         int x2= 5;
-        int y2= 2;
+        int y2= 3;
         double rsl2= distance(x1, y1, x2, y2);
-        double result = Point.distance(9, 7, 5, 2);
+        double result = Point.distance(9, 7, 5, 3);
         System.out.println("result (9, 7) to (5, 1) " + result);
     }
 }
