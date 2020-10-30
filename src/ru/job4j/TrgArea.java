@@ -6,7 +6,7 @@ public class TrgArea {
         double pa=p-a;
         double pb=p-b;
         double pc=p-c;
-        double one= p*a*b*c;
+        double one= p*pa*pb*pc;
         double rsl= Math.sqrt(one);
         return rsl;
     }
